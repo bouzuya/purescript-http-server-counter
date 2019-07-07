@@ -1,7 +1,7 @@
 {
   "name": "purescript-http-server-counter",
   "description": "bouzuya/w010 2019-W27",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "bouzuya <m@bouzuya.net> (https://bouzuya.net/)",
   "bugs": {
     "url": "https://github.com/bouzuya/purescript-http-server-counter/issues"
