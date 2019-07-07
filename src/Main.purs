@@ -24,7 +24,7 @@ readPort defaultPort =
 
 main :: Effect Unit
 main = Aff.launchAff_ do
-  store <- Store.new []
+  store <- Store.empty
   port <- Class.liftEffect (readPort 8080)
   Class.liftEffect
     (Server.run
